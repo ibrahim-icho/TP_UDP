@@ -1,6 +1,7 @@
 language: node_js
 node_js:
-  _  "14"
-script:  
-  _  npm install
-  _  npm test
+  - "14"
+before_script:
+  - npm install
+script:
+  - npm test
